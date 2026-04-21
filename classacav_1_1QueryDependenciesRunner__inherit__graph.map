@@ -1,0 +1,5 @@
+<map id="acav::QueryDependenciesRunner" name="acav::QueryDependenciesRunner">
+<area shape="rect" id="Node000001" title="Runs the query&#45;dependencies tool and parses its output." alt="" coords="5,83,236,113"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="85,5,156,35"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="122,49,123,84,118,81,119,53"/>
+</map>

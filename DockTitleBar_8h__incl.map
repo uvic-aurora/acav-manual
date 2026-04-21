@@ -1,0 +1,9 @@
+<map id="app/include/ui/DockTitleBar.h" name="app/include/ui/DockTitleBar.h">
+<area shape="rect" id="Node000001" title="Custom dock widget title bar with fast focus indication." alt="" coords="47,5,218,54"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,102,76,132"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,53,69,93,65,89,104,56"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="100,102,165,132"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="134,53,135,87,130,85,131,57"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="189,102,294,132"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="164,52,214,92,209,92,162,57"/>
+</map>

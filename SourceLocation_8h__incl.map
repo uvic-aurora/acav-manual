@@ -1,0 +1,19 @@
+<map id="app/include/core/SourceLocation.h" name="app/include/core/SourceLocation.h">
+<area shape="rect" id="Node000001" title="Source code location representation." alt="" coords="186,5,422,35"/>
+<area shape="rect" id="Node000002" href="$FileManager_8h.html" title="Centralized file registry with path&#45;to&#45;FileID mapping." alt="" coords="221,83,388,113"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="306,33,307,69,302,66,303,38"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,161,73,190"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="254,116,88,162,87,157,253,111"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="97,161,157,190"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="274,113,173,158,171,153,268,114"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="181,161,252,190"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="290,112,245,153,243,148,285,114"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="276,161,333,190"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="306,111,307,146,302,143,302,115"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="356,161,447,190"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="323,111,374,151,369,151,322,116"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="471,161,591,190"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="347,111,477,155,471,156,347,116"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="615,161,676,190"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="384,111,484,130,603,160,597,160,483,136,384,116"/>
+</map>

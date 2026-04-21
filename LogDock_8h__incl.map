@@ -1,0 +1,19 @@
+<map id="app/include/ui/LogDock.h" name="app/include/ui/LogDock.h">
+<area shape="rect" id="Node000001" title="Dock widget for displaying logs and diagnostics." alt="" coords="326,5,506,35"/>
+<area shape="rect" id="Node000002" href="$LogEntry_8h_source.html" title=" " alt="" coords="107,83,227,113"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="367,37,229,81,227,76,372,34"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="251,83,358,113"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="398,34,339,76,337,72,393,37"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="381,83,452,113"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="418,34,419,69,414,66,415,38"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="476,83,543,113"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="435,33,483,73,478,73,433,38"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="567,83,639,113"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="452,33,557,77,551,77,451,38"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,161,97,190"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="148,113,87,154,84,150,143,114"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="120,161,214,190"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="169,111,169,146,165,144,165,115"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="238,161,306,190"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="188,111,243,151,237,151,186,116"/>
+</map>

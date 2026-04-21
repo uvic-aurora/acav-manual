@@ -1,0 +1,5 @@
+<map id="acav::DeclContextView" name="acav::DeclContextView">
+<area shape="rect" id="Node000001" title="Panel displaying declaration context hierarchy for selected AST node." alt="" coords="5,83,165,113"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="47,5,123,35"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="87,49,88,83,82,82,83,53"/>
+</map>

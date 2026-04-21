@@ -1,0 +1,31 @@
+<map id="app/include/core/QueryDependenciesParallelRunner.h" name="app/include/core/QueryDependenciesParallelRunner.h">
+<area shape="rect" id="Node000001" title="Parallel runner specifically for query&#45;dependencies tool." alt="" coords="272,5,530,54"/>
+<area shape="rect" id="Node000002" href="$ParallelProcessRunner_8h.html" title="Generic parallel process runner for executing multiple instances of a program." alt="" coords="302,102,501,132"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="403,52,404,87,399,85,400,57"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,180,120,209"/>
+<area shape="poly" id="edge14_Node000001_Node000003" title=" " alt="" coords="353,57,107,175,104,170,351,52"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="524,102,622,132"/>
+<area shape="poly" id="edge15_Node000001_Node000014" title=" " alt="" coords="449,52,533,94,528,95,449,57"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="337,135,136,180,134,175,338,130"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="143,180,206,209"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="356,134,221,180,220,175,361,131"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="230,180,301,209"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="378,131,305,174,302,170,373,133"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="325,180,403,209"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="396,131,380,167,376,163,392,134"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="572,257,641,287"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="409,130,433,168,449,189,468,207,513,235,560,257,555,256,510,240,465,211,446,193,429,172,407,135"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="478,180,567,209"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="425,130,490,171,485,171,423,135"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="592,180,709,209"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="448,130,592,174,587,175,448,135"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="733,180,794,209"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="490,130,596,149,721,179,715,179,595,154,490,135"/>
+<area shape="rect" id="Node000011" href="$LogEntry_8h_source.html" title=" " alt="" coords="818,180,939,209"/>
+<area shape="poly" id="edge10_Node000002_Node000011" title=" " alt="" coords="501,130,806,178,801,180,501,135"/>
+<area shape="poly" id="edge13_Node000011_Node000007" title=" " alt="" coords="830,210,656,260,655,255,825,210"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="774,257,866,287"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="870,209,841,247,839,243,865,211"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="889,257,982,287"/>
+<area shape="poly" id="edge12_Node000011_Node000013" title=" " alt="" coords="890,208,919,246,914,244,888,212"/>
+</map>

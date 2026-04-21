@@ -1,0 +1,13 @@
+<map id="include/common/ClangUtils.h" name="include/common/ClangUtils.h">
+<area shape="rect" id="Node000001" title="Utilities for interacting with Clang at runtime This includes runtime detection of Clang paths and AS..." alt="" coords="243,5,445,35"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,83,176,113"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="299,37,153,81,152,76,294,34"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="200,83,282,113"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="327,35,274,76,271,71,322,36"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="307,83,381,113"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="346,34,346,69,342,66,342,38"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="404,83,462,113"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="362,33,408,73,402,72,360,38"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="486,83,548,113"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="377,33,475,77,469,77,376,38"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="acav::LineNumberArea" name="acav::LineNumberArea">
+<area shape="rect" id="Node000001" title="Widget for displaying line numbers beside SourceCodeView." alt="" coords="5,83,169,113"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="49,5,125,35"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="89,49,89,83,85,82,85,53"/>
+</map>

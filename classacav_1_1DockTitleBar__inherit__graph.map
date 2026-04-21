@@ -1,0 +1,5 @@
+<map id="acav::DockTitleBar" name="acav::DockTitleBar">
+<area shape="rect" id="Node000001" title="Custom title bar for QDockWidget with fast focus indication." alt="" coords="5,83,141,113"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="38,5,108,35"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="75,49,76,83,70,82,71,53"/>
+</map>

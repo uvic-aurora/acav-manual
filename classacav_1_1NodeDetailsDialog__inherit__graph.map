@@ -1,0 +1,5 @@
+<map id="acav::NodeDetailsDialog" name="acav::NodeDetailsDialog">
+<area shape="rect" id="Node000001" title="Non&#45;modal dialog displaying AST node properties in a tree view." alt="" coords="5,83,177,113"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="56,5,126,35"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="93,49,93,83,89,81,89,53"/>
+</map>

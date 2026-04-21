@@ -1,0 +1,46 @@
+var annotated_dup =
+[
+    [ "acav", null, [
+      [ "DiagnosticMessage", "structacav_1_1DiagnosticMessage.html", null ],
+      [ "HeaderInfo", "structacav_1_1HeaderInfo.html", "structacav_1_1HeaderInfo" ],
+      [ "FileDependencies", "structacav_1_1FileDependencies.html", "structacav_1_1FileDependencies" ],
+      [ "ProcessingError", "structacav_1_1ProcessingError.html", "structacav_1_1ProcessingError" ],
+      [ "FileManager", "classacav_1_1FileManager.html", "classacav_1_1FileManager" ],
+      [ "InternedString", "classacav_1_1InternedString.html", "classacav_1_1InternedString" ],
+      [ "TypeInfoExtractor", "classacav_1_1TypeInfoExtractor.html", "classacav_1_1TypeInfoExtractor" ],
+      [ "AcavAstBuilder", "classacav_1_1AcavAstBuilder.html", "classacav_1_1AcavAstBuilder" ],
+      [ "AppConfig", "classacav_1_1AppConfig.html", "classacav_1_1AppConfig" ],
+      [ "AstExtractionStats", "structacav_1_1AstExtractionStats.html", null ],
+      [ "AstExtractorRunner", "classacav_1_1AstExtractorRunner.html", "classacav_1_1AstExtractorRunner" ],
+      [ "AstContext", "classacav_1_1AstContext.html", "classacav_1_1AstContext" ],
+      [ "AstNode", "classacav_1_1AstNode.html", "classacav_1_1AstNode" ],
+      [ "AstViewNode", "classacav_1_1AstViewNode.html", "classacav_1_1AstViewNode" ],
+      [ "LogEntry", "structacav_1_1LogEntry.html", null ],
+      [ "MakeAstRunner", "classacav_1_1MakeAstRunner.html", "classacav_1_1MakeAstRunner" ],
+      [ "MemoryProfiler", "classacav_1_1MemoryProfiler.html", "classacav_1_1MemoryProfiler" ],
+      [ "ParallelProcessRunner", "classacav_1_1ParallelProcessRunner.html", "classacav_1_1ParallelProcessRunner" ],
+      [ "ParsedLogLine", "structacav_1_1ParsedLogLine.html", null ],
+      [ "QueryDependenciesParallelRunner", "classacav_1_1QueryDependenciesParallelRunner.html", "classacav_1_1QueryDependenciesParallelRunner" ],
+      [ "QueryDependenciesRunner", "classacav_1_1QueryDependenciesRunner.html", "classacav_1_1QueryDependenciesRunner" ],
+      [ "SourceLocation", "classacav_1_1SourceLocation.html", "classacav_1_1SourceLocation" ],
+      [ "SourceRange", "classacav_1_1SourceRange.html", "classacav_1_1SourceRange" ],
+      [ "Interval", "structacav_1_1Interval.html", "structacav_1_1Interval" ],
+      [ "IntervalTree", "classacav_1_1IntervalTree.html", "classacav_1_1IntervalTree" ],
+      [ "SourceLocationIndex", "classacav_1_1SourceLocationIndex.html", "classacav_1_1SourceLocationIndex" ],
+      [ "AstModel", "classacav_1_1AstModel.html", "classacav_1_1AstModel" ],
+      [ "CppSyntaxHighlighter", "classacav_1_1CppSyntaxHighlighter.html", null ],
+      [ "DeclContextView", "classacav_1_1DeclContextView.html", "classacav_1_1DeclContextView" ],
+      [ "DockTitleBar", "classacav_1_1DockTitleBar.html", "classacav_1_1DockTitleBar" ],
+      [ "LineNumberArea", "classacav_1_1LineNumberArea.html", "classacav_1_1LineNumberArea" ],
+      [ "LogDock", "classacav_1_1LogDock.html", "classacav_1_1LogDock" ],
+      [ "MainWindow", "classacav_1_1MainWindow.html", "classacav_1_1MainWindow" ],
+      [ "NodeCycleWidget", "classacav_1_1NodeCycleWidget.html", "classacav_1_1NodeCycleWidget" ],
+      [ "NodeDetailsDialog", "classacav_1_1NodeDetailsDialog.html", "classacav_1_1NodeDetailsDialog" ],
+      [ "OpenProjectDialog", "classacav_1_1OpenProjectDialog.html", "classacav_1_1OpenProjectDialog" ],
+      [ "SourceCodeView", "classacav_1_1SourceCodeView.html", "classacav_1_1SourceCodeView" ],
+      [ "TranslationUnitModel", "classacav_1_1TranslationUnitModel.html", "classacav_1_1TranslationUnitModel" ]
+    ] ],
+    [ "std", null, [
+      [ "formatter&lt; acav::InternedString &gt;", "structstd_1_1formatter_3_01acav_1_1InternedString_01_4.html", null ]
+    ] ]
+];

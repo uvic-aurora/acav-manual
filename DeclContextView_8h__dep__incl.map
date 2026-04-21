@@ -1,0 +1,9 @@
+<map id="app/include/ui/DeclContextView.h" name="app/include/ui/DeclContextView.h">
+<area shape="rect" id="Node000001" title="Declaration context hierarchy display panel." alt="" coords="125,5,315,54"/>
+<area shape="rect" id="Node000002" href="$MainWindow_8h.html" title="Main application window with multi&#45;panel layout." alt="" coords="5,102,211,132"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="175,65,128,103,125,99,179,62"/>
+<area shape="rect" id="Node000004" href="$DeclContextView_8cpp_source.html" title=" " alt="" coords="235,102,429,132"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="264,61,316,101,311,101,263,66"/>
+<area shape="rect" id="Node000003" href="$MainWindow_8cpp_source.html" title=" " alt="" coords="23,180,193,209"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="110,146,110,180,106,178,106,149"/>
+</map>

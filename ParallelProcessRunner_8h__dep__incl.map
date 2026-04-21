@@ -1,0 +1,13 @@
+<map id="app/include/core/ParallelProcessRunner.h" name="app/include/core/ParallelProcessRunner.h">
+<area shape="rect" id="Node000001" title="Generic parallel process runner for executing multiple instances of a program." alt="" coords="124,5,299,54"/>
+<area shape="rect" id="Node000002" href="$ParallelProcessRunner_8cpp.html" title="Implementation of generic parallel process runner." alt="" coords="5,102,178,151"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="169,66,124,103,120,100,172,61"/>
+<area shape="rect" id="Node000003" href="$QueryDependenciesParallelRunner_8h.html" title="Parallel runner specifically for query&#45;dependencies tool." alt="" coords="202,102,461,151"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="253,61,304,101,299,102,253,66"/>
+<area shape="rect" id="Node000004" href="$QueryDependenciesParallelRunner_8cpp.html" title="Implementation of query&#45;dependencies&#45;specific parallel runner." alt="" coords="111,199,320,247"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="293,159,246,200,243,196,289,162"/>
+<area shape="rect" id="Node000005" href="$MainWindow_8h.html" title="Main application window with multi&#45;panel layout." alt="" coords="345,208,550,238"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="372,158,433,208,428,208,371,163"/>
+<area shape="rect" id="Node000006" href="$MainWindow_8cpp_source.html" title=" " alt="" coords="362,295,533,325"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="449,252,450,297,445,294,446,255"/>
+</map>

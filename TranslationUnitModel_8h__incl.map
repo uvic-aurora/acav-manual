@@ -1,0 +1,31 @@
+<map id="app/include/ui/TranslationUnitModel.h" name="app/include/ui/TranslationUnitModel.h">
+<area shape="rect" id="Node000001" title="Qt model for translation unit tree view." alt="" coords="590,5,771,54"/>
+<area shape="rect" id="Node000002" href="$FileManager_8h.html" title="Centralized file registry with path&#45;to&#45;FileID mapping." alt="" coords="221,102,388,132"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="587,52,382,101,381,96,592,51"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="412,102,503,132"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="621,54,510,98,508,93,616,55"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="528,102,625,132"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="654,53,607,94,604,89,649,56"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="649,102,712,132"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="682,53,682,88,678,84,679,57"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="735,102,794,132"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="705,52,742,91,737,90,703,57"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="817,102,973,132"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="741,52,848,96,842,96,740,57"/>
+<area shape="rect" id="Node000015" title=" " alt="" coords="997,102,1065,132"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="772,48,984,101,979,102,771,54"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,180,73,209"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="254,135,88,181,87,176,253,130"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="97,180,157,209"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="274,132,173,177,171,172,268,133"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="181,180,252,209"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="290,131,245,172,243,167,285,133"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="276,180,333,209"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="306,130,307,165,302,162,302,134"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="356,180,447,209"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="323,130,374,170,369,170,322,135"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="471,180,591,209"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="347,130,477,174,471,175,347,135"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="615,180,676,209"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="384,130,484,149,603,179,597,179,483,155,384,135"/>
+</map>

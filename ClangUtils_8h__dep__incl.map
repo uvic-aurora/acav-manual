@@ -1,0 +1,14 @@
+<map id="include/common/ClangUtils.h" name="include/common/ClangUtils.h">
+<area shape="rect" id="Node000001" title="Utilities for interacting with Clang at runtime This includes runtime detection of Clang paths and AS..." alt="" coords="472,5,674,35"/>
+<area shape="rect" id="Node000002" href="$AstExtractorRunner_8cpp_source.html" title=" " alt="" coords="5,92,232,122"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="482,41,195,94,194,89,483,36"/>
+<area shape="rect" id="Node000003" href="$QueryDependenciesParallelRunner_8cpp.html" title="Implementation of query&#45;dependencies&#45;specific parallel runner." alt="" coords="255,83,464,132"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="526,40,420,85,419,80,521,42"/>
+<area shape="rect" id="Node000004" href="$MainWindow_8cpp_source.html" title=" " alt="" coords="488,92,658,122"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="575,49,575,94,571,91,571,53"/>
+<area shape="rect" id="Node000005" href="$ClangUtils_8cpp.html" title="Implementation of Clang utilities and AST operations." alt="" coords="679,180,846,209"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="614,41,672,81,721,132,755,180,750,178,717,136,669,85,613,46"/>
+<area shape="rect" id="Node000006" href="$DiagnosticLogFormat_8h.html" title="Helpers to format diagnostics for log ingestion." alt="" coords="734,83,927,132"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="631,38,761,82,756,82,630,43"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="804,143,775,181,773,177,800,145"/>
+</map>

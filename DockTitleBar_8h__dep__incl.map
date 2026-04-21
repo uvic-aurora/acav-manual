@@ -1,0 +1,9 @@
+<map id="app/include/ui/DockTitleBar.h" name="app/include/ui/DockTitleBar.h">
+<area shape="rect" id="Node000001" title="Custom dock widget title bar with fast focus indication." alt="" coords="128,5,299,54"/>
+<area shape="rect" id="Node000002" href="$MainWindow_8h.html" title="Main application window with multi&#45;panel layout." alt="" coords="5,102,211,132"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="170,66,127,103,124,99,174,62"/>
+<area shape="rect" id="Node000004" href="$DockTitleBar_8cpp.html" title="Implementation of custom dock title bar." alt="" coords="235,102,402,132"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="255,62,304,101,298,101,254,67"/>
+<area shape="rect" id="Node000003" href="$MainWindow_8cpp_source.html" title=" " alt="" coords="23,180,193,209"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="110,146,110,180,106,178,106,149"/>
+</map>

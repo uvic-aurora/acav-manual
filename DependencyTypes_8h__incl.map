@@ -1,0 +1,7 @@
+<map id="include/common/DependencyTypes.h" name="include/common/DependencyTypes.h">
+<area shape="rect" id="Node000001" title="Common data structures for dependency information shared across tools." alt="" coords="5,5,214,54"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="40,102,97,132"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="100,53,84,89,80,86,96,56"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="122,102,183,132"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="123,52,141,88,136,88,120,57"/>
+</map>

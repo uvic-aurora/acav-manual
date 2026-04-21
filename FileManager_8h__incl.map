@@ -1,0 +1,17 @@
+<map id="include/common/FileManager.h" name="include/common/FileManager.h">
+<area shape="rect" id="Node000001" title="Centralized file registry with path&#45;to&#45;FileID mapping." alt="" coords="197,5,412,35"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,83,73,113"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="254,38,88,85,87,80,253,33"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="97,83,157,113"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="274,35,173,80,171,75,268,36"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="181,83,252,113"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="290,35,245,75,243,71,285,37"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="276,83,333,113"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="306,34,307,69,302,66,302,38"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="356,83,447,113"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="323,33,374,74,369,73,322,38"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="471,83,591,113"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="347,33,477,77,471,78,347,38"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="615,83,676,113"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="384,33,484,53,603,82,597,82,483,58,384,38"/>
+</map>

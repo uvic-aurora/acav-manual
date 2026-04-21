@@ -1,0 +1,14 @@
+<map id="app/include/core/AstExtractorRunner.h" name="app/include/core/AstExtractorRunner.h">
+<area shape="rect" id="Node000001" title="Qt runner for AST extraction pipeline." alt="" coords="179,5,386,54"/>
+<area shape="rect" id="Node000002" href="$AstExtractorRunner_8cpp_source.html" title=" " alt="" coords="5,199,232,228"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="230,61,183,104,164,128,148,154,126,200,122,196,144,152,160,125,179,100,225,65"/>
+<area shape="rect" id="Node000003" href="$AcavAstBuilder_8h.html" title="Clang AST to ACAV AST transformation." alt="" coords="193,102,372,151"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="284,67,285,103,280,100,281,72"/>
+<area shape="rect" id="Node000005" href="$MainWindow_8h.html" title="Main application window with multi&#45;panel layout." alt="" coords="446,112,652,141"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="364,57,512,110,507,112,363,62"/>
+<area shape="poly" id="edge4_Node000003_Node000002" title=" " alt="" coords="226,158,147,200,145,196,221,159"/>
+<area shape="rect" id="Node000004" href="$AcavAstBuilder_8cpp_source.html" title=" " alt="" coords="255,199,454,228"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="313,160,345,199,340,197,311,165"/>
+<area shape="rect" id="Node000006" href="$MainWindow_8cpp_source.html" title=" " alt="" coords="477,199,648,228"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="556,155,563,200,558,197,552,159"/>
+</map>

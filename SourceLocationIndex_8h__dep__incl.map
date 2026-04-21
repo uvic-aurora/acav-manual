@@ -1,0 +1,41 @@
+<map id="app/include/core/SourceLocationIndex.h" name="app/include/core/SourceLocationIndex.h">
+<area shape="rect" id="Node000001" title="Source&#45;to&#45;AST node lookup index." alt="" coords="270,5,494,54"/>
+<area shape="rect" id="Node000002" href="$SourceLocationIndex_8cpp_source.html" title=" " alt="" coords="5,189,242,219"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="334,65,146,191,143,187,335,60"/>
+<area shape="rect" id="Node000003" href="$AstNode_8h.html" title="AST data structures and memory management." alt="" coords="541,102,738,132"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="468,57,599,101,594,102,469,62"/>
+<area shape="poly" id="edge4_Node000003_Node000002" title=" " alt="" coords="535,137,261,182,208,191,206,186,260,177,539,133"/>
+<area shape="rect" id="Node000004" href="$AstNode_8cpp_source.html" title=" " alt="" coords="982,189,1143,219"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="738,132,971,177,1011,189,1006,189,970,182,738,138"/>
+<area shape="rect" id="Node000005" href="$AcavAstBuilder_8h.html" title="Clang AST to ACAV AST transformation." alt="" coords="196,276,376,325"/>
+<area shape="poly" id="edge5_Node000003_Node000005" title=" " alt="" coords="523,126,460,135,396,146,341,162,321,171,307,181,293,203,286,228,285,277,280,275,281,227,288,201,303,178,318,166,339,157,394,141,460,130,528,124"/>
+<area shape="rect" id="Node000008" href="$AstExtractorRunner_8h.html" title="Qt runner for AST extraction pipeline." alt="" coords="316,180,523,228"/>
+<area shape="poly" id="edge8_Node000003_Node000008" title=" " alt="" coords="586,139,482,182,480,177,591,137"/>
+<area shape="rect" id="Node000011" href="$AstModel_8h.html" title="Qt model for AST tree view display." alt="" coords="547,189,732,219"/>
+<area shape="poly" id="edge13_Node000003_Node000011" title=" " alt="" coords="641,145,642,190,637,188,638,149"/>
+<area shape="rect" id="Node000013" href="$DeclContextView_8h.html" title="Declaration context hierarchy display panel." alt="" coords="1168,180,1357,228"/>
+<area shape="poly" id="edge16_Node000003_Node000013" title=" " alt="" coords="753,126,942,147,1156,177,1170,182,1164,182,1155,182,942,152,754,131"/>
+<area shape="rect" id="Node000015" href="$NodeDetailsDialog_8h.html" title="Non&#45;modal dialog displaying AST node properties in a tree view." alt="" coords="1380,180,1571,228"/>
+<area shape="poly" id="edge19_Node000003_Node000015" title=" " alt="" coords="753,121,1034,139,1202,156,1369,177,1383,181,1378,182,1368,182,1201,161,1034,145,753,126"/>
+<area shape="rect" id="Node000017" href="$NodeCycleWidget_8cpp_source.html" title=" " alt="" coords="756,189,958,219"/>
+<area shape="poly" id="edge22_Node000003_Node000017" title=" " alt="" coords="690,135,823,188,818,189,690,140"/>
+<area shape="rect" id="Node000006" href="$AcavAstBuilder_8cpp_source.html" title=" " alt="" coords="84,373,283,403"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="248,334,202,375,199,370,243,336"/>
+<area shape="rect" id="Node000007" href="$AstExtractorRunner_8cpp_source.html" title=" " alt="" coords="306,373,533,403"/>
+<area shape="poly" id="edge7_Node000005_Node000007" title=" " alt="" coords="337,331,400,373,395,372,335,336"/>
+<area shape="poly" id="edge10_Node000008_Node000005" title=" " alt="" coords="376,236,321,278,318,274,371,239"/>
+<area shape="poly" id="edge9_Node000008_Node000007" title=" " alt="" coords="422,242,422,374,417,371,417,245"/>
+<area shape="rect" id="Node000009" href="$MainWindow_8h.html" title="Main application window with multi&#45;panel layout." alt="" coords="537,286,742,316"/>
+<area shape="poly" id="edge11_Node000008_Node000009" title=" " alt="" coords="489,232,609,285,604,285,488,237"/>
+<area shape="rect" id="Node000010" href="$MainWindow_8cpp_source.html" title=" " alt="" coords="904,373,1074,403"/>
+<area shape="poly" id="edge12_Node000009_Node000010" title=" " alt="" coords="713,317,933,372,928,372,712,322"/>
+<area shape="poly" id="edge14_Node000011_Node000009" title=" " alt="" coords="641,233,642,287,637,284,638,237"/>
+<area shape="rect" id="Node000012" href="$AstModel_8cpp_source.html" title=" " alt="" coords="766,286,916,316"/>
+<area shape="poly" id="edge15_Node000011_Node000012" title=" " alt="" coords="684,223,814,286,808,285,683,228"/>
+<area shape="poly" id="edge17_Node000013_Node000009" title=" " alt="" coords="1150,229,1040,247,952,256,865,264,755,279,706,288,705,283,754,274,864,259,952,250,1040,242,1155,228"/>
+<area shape="rect" id="Node000014" href="$DeclContextView_8cpp_source.html" title=" " alt="" coords="1134,286,1329,316"/>
+<area shape="poly" id="edge18_Node000013_Node000014" title=" " alt="" coords="1252,241,1238,287,1234,283,1248,244"/>
+<area shape="poly" id="edge20_Node000015_Node000010" title=" " alt="" coords="1437,238,1393,278,1370,305,1359,316,1342,327,1275,354,1205,372,1136,383,1075,388,1074,383,1135,378,1204,367,1273,349,1340,323,1356,312,1366,301,1390,274,1433,240"/>
+<area shape="rect" id="Node000016" href="$NodeDetailsDialog_8cpp.html" title="Implementation of the Node Details dialog." alt="" coords="1403,286,1609,316"/>
+<area shape="poly" id="edge21_Node000015_Node000016" title=" " alt="" coords="1489,241,1504,287,1499,284,1486,245"/>
+</map>
