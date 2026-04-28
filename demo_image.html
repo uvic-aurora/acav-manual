@@ -27,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ACAV<span id="projectnumber">&#160;6dc8230e86cb</span>
+   <div id="projectname">ACAV<span id="projectnumber">&#160;f0ba4b7c9529</span>
    </div>
    <div id="projectbrief">Abstract Syntax Tree (AST) visualization tool for C, C++, and Objective-C</div>
   </td>
@@ -109,9 +109,10 @@ Prerequisites</h1>
 <p>The release image is currently built for <span class="tt">linux/amd64</span>. On ARM hosts such as Apple Silicon, pass <span class="tt">--platform linux/amd64</span> to Docker or Podman.</p>
 <p>Throughout this guide, examples use <span class="tt">v1.0.0</span>. Replace this with the release version that you downloaded or pulled.</p>
 <div class="fragment"><div class="line">acav_version=v1.0.0</div>
-<div class="line">image=ghcr.io/uvic-aurora/acav:$acav_version</div>
+<div class="line">acav_llvm=22</div>
+<div class="line">image=ghcr.io/uvic-aurora/acav:${acav_version}-llvm${acav_llvm}</div>
 <div class="line">runtime=docker</div>
-</div><!-- fragment --><p>Use <span class="tt">runtime=podman</span> if you prefer Podman.</p>
+</div><!-- fragment --><p>Use <span class="tt">runtime=podman</span> if you prefer Podman. Release images are published for LLVM 20, 21, and 22. LLVM 22 is the default recommended image. The shorter tag <span class="tt">ghcr.io/uvic-aurora/acav:$acav_version</span> is also published as an alias for the LLVM 22 image.</p>
 <h1 class="doxsection"><a class="anchor" id="demo_image_quick_start"></a>
 Quick Start</h1>
 <p>The easiest way to get the image is to pull it from GitHub Container Registry:</p>
@@ -121,16 +122,16 @@ Quick Start</h1>
 <div class="line">$runtime run --rm --platform linux/amd64 $image query-dependencies --help</div>
 </div><!-- fragment --><p>To use the downloadable release archive instead, download these two files from the <a href="https://github.com/uvic-aurora/acav/releases">ACAV releases page</a>:</p>
 <ul>
-<li><span class="tt">acav-v1.0.0.tar.gz</span></li>
-<li><span class="tt">SHA256SUMS</span></li>
+<li><span class="tt">acav-v1.0.0-llvm22.tar.gz</span></li>
+<li><span class="tt">SHA256SUMS-llvm22</span></li>
 </ul>
 <p>Verify and load the archive:</p>
-<div class="fragment"><div class="line">sha256sum -c SHA256SUMS</div>
-<div class="line">$runtime load -i acav-$acav_version.tar.gz</div>
+<div class="fragment"><div class="line">sha256sum -c SHA256SUMS-llvm$acav_llvm</div>
+<div class="line">$runtime load -i acav-$acav_version-llvm$acav_llvm.tar.gz</div>
 </div><!-- fragment --><p>After loading the archive, use the local image tag:</p>
-<div class="fragment"><div class="line">image=acav:$acav_version</div>
-</div><!-- fragment --><p>Some Podman setups may tag loaded images as <span class="tt">localhost/acav:$acav_version</span>. If <span class="tt">acav:$acav_version</span> is not found, try:</p>
-<div class="fragment"><div class="line">image=localhost/acav:$acav_version</div>
+<div class="fragment"><div class="line">image=acav:${acav_version}-llvm${acav_llvm}</div>
+</div><!-- fragment --><p>Some Podman setups may tag loaded images as <span class="tt">localhost/acav:${acav_version}-llvm${acav_llvm}</span>. If the <span class="tt">acav:</span> tag is not found, try:</p>
+<div class="fragment"><div class="line">image=localhost/acav:${acav_version}-llvm${acav_llvm}</div>
 </div><!-- fragment --><h1 class="doxsection"><a class="anchor" id="demo_image_running_gui"></a>
 Running the GUI Application</h1>
 <p>ACAV is a GUI application, so the container needs access to the host display.</p>
@@ -207,10 +208,13 @@ What's Included</h1>
 GitHub Release Assets</h2>
 <p>The GitHub Release provides:</p>
 <ul>
-<li><span class="tt">acav-vX.Y.Z.tar.gz</span>: compressed OCI image archive.</li>
-<li><span class="tt">SHA256SUMS</span>: checksum file for verifying the image archive.</li>
+<li><span class="tt">acav-vX.Y.Z-llvm20.tar.gz</span>: compressed OCI image archive built with LLVM 20.</li>
+<li><span class="tt">acav-vX.Y.Z-llvm21.tar.gz</span>: compressed OCI image archive built with LLVM 21.</li>
+<li><span class="tt">acav-vX.Y.Z-llvm22.tar.gz</span>: compressed OCI image archive built with LLVM 22.</li>
+<li><span class="tt">SHA256SUMS-llvm20</span>, <span class="tt">SHA256SUMS-llvm21</span>, and <span class="tt">SHA256SUMS-llvm22</span>: checksum files for verifying the matching image archives.</li>
 </ul>
 <p>GitHub also provides source-code archives automatically.</p>
+<p>The same images are published to GitHub Container Registry with tags <span class="tt">vX.Y.Z-llvm20</span>, <span class="tt">vX.Y.Z-llvm21</span>, and <span class="tt">vX.Y.Z-llvm22</span>. The release tag <span class="tt">vX.Y.Z</span> points to the LLVM 22 image. For non-prerelease builds, <span class="tt">latest</span> also points to the LLVM 22 image.</p>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md79"></a>
 Inside the Container Image</h2>
 <p>Binaries in <span class="tt">/opt/acav/bin/</span>:</p>
@@ -244,7 +248,7 @@ Troubleshooting</h1>
 <div class="line">  acav -c /opt/acav/examples/compile_commands.json</div>
 </div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md83"></a>
 Image Naming Issues</h2>
-<p>If you loaded the archive with Podman and <span class="tt">acav:$acav_version</span> is not found, try <span class="tt">localhost/acav:$acav_version</span>.</p>
+<p>If you loaded the archive with Podman and <span class="tt">acav:${acav_version}-llvm${acav_llvm}</span> is not found, try <span class="tt">localhost/acav:${acav_version}-llvm${acav_llvm}</span>.</p>
 <h1 class="doxsection"><a class="anchor" id="autotoc_md84"></a>
 License</h1>
 <p>See <span class="tt">LICENSE.txt</span> and <span class="tt">NOTICE.txt</span> in the source repository for license and attribution information.</p>
