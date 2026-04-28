@@ -25,7 +25,7 @@
 var menudata={children:[
 {text:"Overview",url:"index.html"},
 {text:"Installation",url:"installation.html"},
-{text:"Demo Image",url:"md__d_o_c_k_e_r___i_m_a_g_e___r_e_a_d_m_e.html"},
+{text:"Demo Image",url:"demo_image.html"},
 {text:"User Manual",url:"user_manual.html"},
 {text:"Classes",url:"annotated.html",children:[
 {text:"Class List",url:"annotated.html"},

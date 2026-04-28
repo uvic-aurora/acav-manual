@@ -5,7 +5,7 @@ var searchData=
   ['declaration_20context_20panel_2',['4. Declaration Context Panel',['../user_manual.html#autotoc_md27',1,'']]],
   ['declcontextview_3',['DeclContextView',['../classacav_1_1DeclContextView.html',1,'acav']]],
   ['declcontextview_2eh_4',['DeclContextView.h',['../DeclContextView_8h.html',1,'']]],
-  ['demo_20image_20user_20guide_5',['ACAV Docker/Podman Demo Image - User Guide',['../md_DOCKER__IMAGE__README.html',1,'']]],
+  ['demo_20image_20user_20guide_5',['ACAV Docker/Podman Demo Image - User Guide',['../demo_image.html',1,'']]],
   ['dependencies_6',['&lt;span class=&quot;tt&quot;&gt;query-dependencies&lt;/span&gt;',['../user_manual.html#autotoc_md43',1,'']]],
   ['dependenciesready_7',['dependenciesReady',['../classacav_1_1QueryDependenciesParallelRunner.html#a6eadfad9c7489ad4f13730fbc46f7fc8',1,'acav::QueryDependenciesParallelRunner::dependenciesReady()'],['../classacav_1_1QueryDependenciesRunner.html#aec267549651fd7e5f96a950e6372971f',1,'acav::QueryDependenciesRunner::dependenciesReady()']]],
   ['dependenciesreadywitherrors_8',['dependenciesReadyWithErrors',['../classacav_1_1QueryDependenciesParallelRunner.html#a423195a1cc7229f47d510fbdc2a1aa02',1,'acav::QueryDependenciesParallelRunner::dependenciesReadyWithErrors()'],['../classacav_1_1QueryDependenciesRunner.html#a1befae94794aaee0b64112e79eb9ef66',1,'acav::QueryDependenciesRunner::dependenciesReadyWithErrors()']]],
@@ -15,12 +15,11 @@ var searchData=
   ['diagnosticmessage_12',['DiagnosticMessage',['../structacav_1_1DiagnosticMessage.html',1,'acav']]],
   ['direct_5f_13',['direct_',['../structacav_1_1HeaderInfo.html#ace308f65088b410a49a4566ef2f0ef14',1,'acav::HeaderInfo']]],
   ['display_14',['9. File Path Display',['../user_manual.html#autotoc_md32',1,'']]],
-  ['displaypool_15',['displayPool',['../classacav_1_1InternedString.html#a1475b31b44fa02abbb25090ccbcb59ee',1,'acav::InternedString']]],
-  ['distribution_16',['In This Distribution',['../md_DOCKER__IMAGE__README.html#autotoc_md93',1,'']]],
-  ['docker_20image_17',['Inside the Docker Image',['../md_DOCKER__IMAGE__README.html#autotoc_md94',1,'']]],
-  ['docker_20podman_20demo_20image_20user_20guide_18',['ACAV Docker/Podman Demo Image - User Guide',['../md_DOCKER__IMAGE__README.html',1,'']]],
-  ['docktitlebar_19',['DockTitleBar',['../classacav_1_1DockTitleBar.html',1,'acav']]],
-  ['docktitlebar_2ecpp_20',['DockTitleBar.cpp',['../DockTitleBar_8cpp.html',1,'']]],
-  ['docktitlebar_2eh_21',['DockTitleBar.h',['../DockTitleBar_8h.html',1,'']]],
-  ['documentation_20organization_22',['Documentation Organization',['../index.html#autotoc_md5',1,'']]]
+  ['display_20or_20no_20protocol_20specified_15',['&quot;Cannot open display&quot; or &quot;No protocol specified&quot;',['../demo_image.html#autotoc_md81',1,'']]],
+  ['displaypool_16',['displayPool',['../classacav_1_1InternedString.html#a1475b31b44fa02abbb25090ccbcb59ee',1,'acav::InternedString']]],
+  ['docker_20podman_20demo_20image_20user_20guide_17',['ACAV Docker/Podman Demo Image - User Guide',['../demo_image.html',1,'']]],
+  ['docktitlebar_18',['DockTitleBar',['../classacav_1_1DockTitleBar.html',1,'acav']]],
+  ['docktitlebar_2ecpp_19',['DockTitleBar.cpp',['../DockTitleBar_8cpp.html',1,'']]],
+  ['docktitlebar_2eh_20',['DockTitleBar.h',['../DockTitleBar_8h.html',1,'']]],
+  ['documentation_20organization_21',['Documentation Organization',['../index.html#autotoc_md5',1,'']]]
 ];

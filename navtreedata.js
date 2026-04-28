@@ -27,7 +27,7 @@ var NAVTREE =
   [ "ACAV", "index.html", [
     [ "Overview", "index.html", null ],
     [ "Installation", "installation.html", null ],
-    [ "Demo Image", "md__d_o_c_k_e_r___i_m_a_g_e___r_e_a_d_m_e.html", null ],
+    [ "Demo Image", "demo_image.html", null ],
     [ "User Manual", "user_manual.html", null ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
