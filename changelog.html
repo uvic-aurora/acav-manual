@@ -27,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ACAV<span id="projectnumber">&#160;453686febeca</span>
+   <div id="projectname">ACAV<span id="projectnumber">&#160;68228013681d</span>
    </div>
    <div id="projectbrief">Abstract Syntax Tree (AST) visualization tool for C, C++, and Objective-C</div>
   </td>
@@ -94,177 +94,34 @@ $(function(){initNavTree('changelog.html','',''); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p><a class="anchor" id="md_CHANGELOG"></a></p>
-<p>All notable changes to this project will be documented in this file.</p>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md68"></a>
-[v0.5.2] - 2026-02-10</h1>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md69"></a>
+<p>All notable changes to public releases of ACAV will be documented in this file.</p>
+<p>Pre-public development history is intentionally omitted.</p>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md101"></a>
+[v1.0.0] - Unreleased</h1>
+<p>Initial public release candidate.</p>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md102"></a>
 Added</h2>
 <ul>
-<li>Lightweight C/C++ syntax highlighting in Source Code view (keywords, comments, strings/chars, function-like identifiers).</li>
-<li>AST search floating popup with per-session query history and completer suggestions.</li>
-<li>AST compilation warning banner when <span class="tt">make-ast</span> reports compile errors.</li>
-</ul>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md70"></a>
-Changed</h2>
-<ul>
-<li>Renamed Aurora terminology to ACAV across application code, docs, and build files.</li>
-<li>Added a more robust <span class="tt">scripts/run_acav_container.sh</span> helper for runtime/image/workspace/shell options.</li>
-</ul>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md71"></a>
-Fixed</h2>
-<ul>
-<li>Auto-regenerate stale cached AST files after load failures (without confirmation prompt).</li>
-<li>Container image resolution now handles both <span class="tt">acav:&lt;tag&gt;</span> and <span class="tt">localhost/acav:&lt;tag&gt;</span>.</li>
-</ul>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md72"></a>
-[v0.5.1] - 2026-01-31</h1>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md73"></a>
-Added</h2>
-<ul>
-<li>AST node search with property-qualified filtering (e.g., <span class="tt">kind:FunctionDecl name:main</span>), prev/next navigation, match counter, and project file filter.</li>
-<li><span class="tt">isReferenced</span> property for VarDecl nodes alongside existing <span class="tt">isUsed</span>.</li>
-<li>Human-readable enum labels (<span class="tt">valueKindName</span>, <span class="tt">objectKindName</span>, <span class="tt">initStyleName</span>, <span class="tt">storageClassName</span>).</li>
-</ul>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md74"></a>
-Fixed</h2>
-<ul>
-<li>Collapse All on directories not collapsing header nodes inside source files.</li>
-</ul>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md75"></a>
-[v0.5.0] - 2026-01-26</h1>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md76"></a>
-Added</h2>
-<ul>
-<li>File path subtitles in Source Code and AST dock title bars.</li>
-<li>Per-subwindow font size (Ctrl+/- adjusts focused panel only, Ctrl+0 resets).</li>
-<li>Node Details dialog (right-click → "View Details..." with tree view for all properties).</li>
-<li>Comment extraction for Decl nodes via <span class="tt">ASTContext::getCommentForDecl()</span>.</li>
-<li>Interactive zoom (Ctrl++/Ctrl+-, Ctrl+0 to reset).</li>
-<li>Reload Configuration menu item.</li>
-<li>AST placeholder message when no AST is loaded.</li>
-<li>Lazy header population in TU tree for improved loading performance.</li>
-<li>Log panel find, copy, clear, and auto-scroll toggle.</li>
-</ul>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md77"></a>
-Changed</h2>
-<ul>
-<li>Renamed "AST Tree" to "AST" throughout the UI.</li>
-<li>NodePtr values now display in hexadecimal format.</li>
-<li>Context-aware Expand/Collapse All in File Explorer.</li>
-<li>Bundled Clang/LLVM 21, Qt6, and runtime dependencies into container image.</li>
-<li>Resource directory auto-discovered via <span class="tt">clang++ -print-resource-dir</span>.</li>
-</ul>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md78"></a>
-Fixed</h2>
-<ul>
-<li>Extra blank line at end of source file view.</li>
-<li>Collapse All Headers bug (headers inside source files not collapsed).</li>
-<li>stddef.h not found in Docker (added <span class="tt">-resource-dir</span> argument).</li>
-<li>TranslationUnitDecl sync when navigating to nodes without source location.</li>
-</ul>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md79"></a>
-[v0.4.0] - 2026-01-16</h1>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md80"></a>
-Added</h2>
-<ul>
-<li>Keyboard shortcuts for panel navigation (Ctrl+1 through Ctrl+6).</li>
-<li>Visual focus indicator on dock title bars.</li>
-</ul>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md81"></a>
-Changed</h2>
-<ul>
-<li>Macro expansions now show spelling location instead of expansion location.</li>
-<li>Simplified Open Project dialog (removed misleading placeholders).</li>
-</ul>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md82"></a>
-Fixed</h2>
-<ul>
-<li>Focus switch lag between panels (replaced setStyleSheet with QPalette).</li>
-<li>File Explorer sync issues with symlinked paths.</li>
-<li>Declaration context only shown for Decl nodes; non-Decl nodes show "Not applicable."</li>
-<li>Clicking declaration context entries now navigates to AST node.</li>
-<li>HOME/END keys in Source Code view.</li>
-<li>AST extraction performance (reduced per-node overhead).</li>
-</ul>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md83"></a>
-Removed</h2>
-<ul>
-<li>Verbose type information option.</li>
-</ul>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md84"></a>
-[v0.3.1] - 2026-01-13</h1>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md85"></a>
-Changed</h2>
-<ul>
-<li>Support project root and refined file explorer structure.</li>
-<li>Polish README.</li>
-</ul>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md86"></a>
-Fixed</h2>
-<ul>
-<li>Potential Windows autoraise issue.</li>
-<li>Layout issues.</li>
-<li>Performance issues for expand/collapse descendants.</li>
-<li>Declaration context view only displays when Decl* node is selected.</li>
-</ul>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md87"></a>
-[v0.3.0] - 2026-01-12</h1>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md88"></a>
-Added</h2>
-<ul>
-<li>Source Code area supports region selection.</li>
-<li>Log window for runtime messages.</li>
-<li>Declaration Context view.</li>
-<li>Cross-platform Docker run scripts.</li>
-</ul>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md89"></a>
-Changed</h2>
-<ul>
-<li>Multiple UI improvements.</li>
-<li>File Explorer-style view for source files and included headers.</li>
-</ul>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md90"></a>
-Fixed</h2>
-<ul>
-<li>Synchronization between File Explorer View, Source Code View and AST View</li>
-<li>GUI windows freezing issues</li>
-</ul>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md91"></a>
-Removed</h2>
-<ul>
-<li>AST node filter</li>
-</ul>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md92"></a>
-[v0.2.0] - 2026-01-06</h1>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md93"></a>
-Changed</h2>
-<ul>
-<li>Merged programs into the Docker image (based on v0.1.1).</li>
-</ul>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md94"></a>
-[v0.1.1] - 2025-12-19</h1>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md95"></a>
-Changed</h2>
-<ul>
-<li>Reorganized the public folder structure:<ul>
-<li>Moved the original Docker image (v0.1.0) to a legacy folder.</li>
-<li>Created a <span class="tt">base-images</span> folder containing the compressed Docker image (tag: <span class="tt">acav:v0.1.1</span>), same as v0.1.0 but without binaries.</li>
-<li>Created a <span class="tt">v0.1.1</span> folder with updated binaries.</li>
-</ul>
-</li>
-</ul>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md96"></a>
-Fixed</h2>
-<ul>
-<li>Potential data-racing issues.</li>
-<li>Added user feedback on the GUI status bar.</li>
-</ul>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md97"></a>
-[v0.1.0] - 2025-12-17</h1>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md98"></a>
-Added</h2>
-<ul>
-<li>Initial release. </li>
+<li>Qt-based <span class="tt">acav</span> GUI for exploring Clang ASTs in C, C++, Objective-C, and Objective-C++ projects that provide a JSON compilation database.</li>
+<li>File explorer view for browsing source files and included headers.</li>
+<li>Source-code view with lightweight C/C++ syntax highlighting.</li>
+<li>AST tree view with source-location synchronization.</li>
+<li>Bidirectional navigation between source code and AST nodes.</li>
+<li>Navigation history with back/forward controls.</li>
+<li>Declaration-context panel for selected AST nodes.</li>
+<li>Source-code search with result navigation and highlighting.</li>
+<li>AST-node search with property-qualified queries, regular-expression matching, project-file filtering, result navigation, and query history.</li>
+<li>Region selection in the source-code view for focusing relevant AST nodes.</li>
+<li>Node details dialog for inspecting AST-node properties.</li>
+<li>JSON export for selected AST subtrees.</li>
+<li>Background dependency analysis through <span class="tt">query-dependencies</span>.</li>
+<li>Background AST generation and caching through <span class="tt">make-ast</span>.</li>
+<li>Automatic stale AST-cache recovery.</li>
+<li>Compilation-warning banner when generated AST data may be incomplete.</li>
+<li>Configurable cache directory, font family, font size, comment extraction, and parallel processing settings.</li>
+<li>Native build support for macOS and Linux with CMake presets.</li>
+<li>Containerized build and demo workflows for Docker and Podman.</li>
+<li>Online manual with user, CLI, installation, source/API, and release documentation. </li>
 </ul>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->

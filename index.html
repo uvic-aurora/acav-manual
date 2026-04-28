@@ -27,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ACAV<span id="projectnumber">&#160;453686febeca</span>
+   <div id="projectname">ACAV<span id="projectnumber">&#160;68228013681d</span>
    </div>
    <div id="projectbrief">Abstract Syntax Tree (AST) visualization tool for C, C++, and Objective-C</div>
   </td>
@@ -94,7 +94,7 @@ $(function(){initNavTree('index.html','',''); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p><a class="anchor" id="md_docs_2manual_2index"></a></p>
-<p>ACAV (Clang AST Viewer) is an interactive Abstract Syntax Tree (AST) visualization tool for C, C++, and Objective-C, built with Clang and Qt. Given a JSON compilation database such as <span class="tt">compile_commands.json</span>, ACAV lets you open a real project, inspect the AST for a translation unit, and move directly between source code and AST nodes.</p>
+<p>ACAV (Aurora Clang AST Viewer) is an interactive Abstract Syntax Tree (AST) visualization tool for C, C++, and Objective-C, built with Clang and Qt. Given a JSON compilation database such as <span class="tt">compile_commands.json</span>, ACAV lets you open a real project, inspect the AST for a translation unit, and move directly between source code and AST nodes.</p>
 <p><img src="images/acav-screenshot.png" alt="Screenshot of the ACAV interface showing the file explorer, source code view, AST tree view, declaration-context panels, and log panel." class="inline"/></p>
 <p><em>Screenshot: ACAV displaying the file explorer, source-code panel, AST tree view, declaration-context panels, and log panel.</em></p>
 <h1 class="doxsection"><a class="anchor" id="autotoc_md1"></a>
@@ -102,6 +102,7 @@ Project Links</h1>
 <ul>
 <li><a href="https://github.com/uvic-aurora/acav">Project codebase</a></li>
 <li><a href="https://uvic-aurora.github.io/acav/">Project introduction page</a></li>
+<li><a href="https://uvic-aurora.github.io/acav-manual/index.html">Online manual</a></li>
 </ul>
 <h1 class="doxsection"><a class="anchor" id="autotoc_md2"></a>
 At a Glance</h1>
@@ -128,7 +129,7 @@ Quick Start</h1>
 <p>The typical workflow is:</p>
 <ol type="1">
 <li>Generate or locate a compilation database for the target project.</li>
-<li>Build or install ACAV by following <a class="el" href="installation.html#md_docs_2manual_2installation" title="docs/manual/installation.md">Installation</a>.</li>
+<li>Build or install ACAV by following <a class="el" href="installation.html#md_INSTALL" title="INSTALL.txt">Installation</a>.</li>
 <li><p class="startli">Launch ACAV:</p>
 <div class="fragment"><div class="line">acav -c /path/to/compile_commands.json</div>
 </div><!-- fragment --></li>
@@ -138,17 +139,19 @@ Quick Start</h1>
 <h1 class="doxsection"><a class="anchor" id="autotoc_md5"></a>
 Documentation Organization</h1>
 <ul>
-<li><a class="el" href="license.html#md_docs_2manual_2license" title="docs/manual/license.md">Licence</a> provides the full GNU GPL v2 license text.</li>
-<li><a class="el" href="installation.html#md_docs_2manual_2installation" title="docs/manual/installation.md">Installation</a> covers prerequisites, native builds, and the containerized workflow.</li>
+<li><a class="el" href="license.html#md_docs_2manual_2license" title="docs/manual/license.md">License</a> points to the authoritative license file.</li>
+<li><a class="el" href="installation.html#md_INSTALL" title="INSTALL.txt">Installation</a> covers prerequisites, native builds, and the containerized workflow.</li>
+<li><a class="el" href="md_DOCKER__IMAGE__README.html" title="ACAV Docker/Podman Demo Image - User Guide">Docker/Podman Demo Image</a> provides detailed OCI demo image instructions.</li>
 <li><a class="el" href="user_manual.html#md_ACAV__USER__MANUAL" title="ACAV_USER_MANUAL.md">User Manual</a> describes the GUI, common workflows, the command-line programs, keyboard shortcuts, and configuration.</li>
+<li><a class="el" href="references.html#md_docs_2manual_2references" title="docs/manual/references.md">References</a> lists related technologies and resources.</li>
 <li><a href="annotated.html">Classes</a> provides the generated class reference.</li>
 <li><a href="files.html">Files</a> provides the generated file reference.</li>
-<li><a class="el" href="changelog.html#md_CHANGELOG" title="CHANGELOG.md">Changelog</a> provides the revision history for released versions of ACAV.</li>
+<li><a class="el" href="changelog.html#md_CHANGELOG" title="CHANGELOG.md">Changelog</a> provides public release notes for ACAV.</li>
 <li><a class="el" href="notice.html#md_docs_2manual_2notice" title="docs/manual/notice.md">Notice</a> provides project attribution, authorship, and licensing context.</li>
 </ul>
 <h1 class="doxsection"><a class="anchor" id="autotoc_md6"></a>
 How to Use This Manual</h1>
-<p>If you are new to ACAV, start with this overview, then <a class="el" href="installation.html#md_docs_2manual_2installation" title="docs/manual/installation.md">Installation</a>, and then <a class="el" href="user_manual.html#md_ACAV__USER__MANUAL" title="ACAV_USER_MANUAL.md">User Manual</a>. If you want to inspect the API surface, use <a href="annotated.html">Classes</a> and <a href="files.html">Files</a>. If you want to review released changes, see the <a class="el" href="changelog.html#md_CHANGELOG" title="CHANGELOG.md">Changelog</a>. </p>
+<p>If you are new to ACAV, start with this overview, then <a class="el" href="installation.html#md_INSTALL" title="INSTALL.txt">Installation</a>, and then <a class="el" href="user_manual.html#md_ACAV__USER__MANUAL" title="ACAV_USER_MANUAL.md">User Manual</a>. If you want to inspect the API surface, use <a href="annotated.html">Classes</a> and <a href="files.html">Files</a>. If you want to review public release notes, see the <a class="el" href="changelog.html#md_CHANGELOG" title="CHANGELOG.md">Changelog</a>. </p>
 </div></div><!-- PageDoc -->
 <a href="doxygen_crawl.html"></a>
 </div><!-- doc-content -->

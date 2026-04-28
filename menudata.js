@@ -24,9 +24,8 @@
 */
 var menudata={children:[
 {text:"Overview",url:"index.html"},
-{text:"Licence",url:"license.html"},
-{text:"Notice",url:"notice.html"},
 {text:"Installation",url:"installation.html"},
+{text:"Demo Image",url:"md__d_o_c_k_e_r___i_m_a_g_e___r_e_a_d_m_e.html"},
 {text:"User Manual",url:"user_manual.html"},
 {text:"Classes",url:"annotated.html",children:[
 {text:"Class List",url:"annotated.html"},
@@ -83,4 +82,7 @@ var menudata={children:[
 {text:"Typedefs",url:"functions_type.html"}]}]},
 {text:"Files",url:"files.html",children:[
 {text:"File List",url:"files.html"}]},
-{text:"Changelog",url:"changelog.html"}]}
+{text:"References",url:"references.html"},
+{text:"Changelog",url:"changelog.html"},
+{text:"License",url:"license.html"},
+{text:"Notice",url:"notice.html"}]}

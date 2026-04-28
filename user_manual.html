@@ -27,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ACAV<span id="projectnumber">&#160;453686febeca</span>
+   <div id="projectname">ACAV<span id="projectnumber">&#160;68228013681d</span>
    </div>
    <div id="projectbrief">Abstract Syntax Tree (AST) visualization tool for C, C++, and Objective-C</div>
   </td>
@@ -94,24 +94,24 @@ $(function(){initNavTree('user_manual.html','',''); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p><a class="anchor" id="md_ACAV__USER__MANUAL"></a></p>
-<p><b>ACAV (Clang AST Viewer)</b> - Interactive Abstract Syntax Tree Visualization Tool</p>
+<p><b>ACAV (Aurora Clang AST Viewer)</b> - Interactive Abstract Syntax Tree Visualization Tool</p>
 <hr  />
-<h1 class="doxsection"><a class="anchor" id="autotoc_md14"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md17"></a>
 Overview</h1>
 <p>ACAV is a graphical application that helps you explore and understand C, C++, and Objective-C code by visualizing its Abstract Syntax Tree (AST). It provides bidirectional navigation between source code and AST structure, making it easier to analyze how the compiler parses and interprets your programs.</p>
 <p><img src="docs/manual/images/acav-screenshot.png" alt="Screenshot of the ACAV interface showing the file explorer, source-code panel, AST tree view, declaration-context panels, and log panel." class="inline"/></p>
 <p><em>Screenshot: ACAV displaying the file explorer, source-code panel, AST tree view, declaration-context panels, and log panel.</em></p>
 <hr  />
-<h1 class="doxsection"><a class="anchor" id="autotoc_md16"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md19"></a>
 Supported Languages and Compilers</h1>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md17"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md20"></a>
 Languages</h2>
 <p>ACAV targets Clang's C-family languages:</p><ul>
 <li><b>C</b> (all standards: C89, C99, C11, C17, C23)</li>
 <li><b>C++</b> (all standards up to C++23)</li>
 <li><b>Objective-C</b> and <b>Objective-C++</b></li>
 </ul>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md18"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md21"></a>
 Compiler Compatibility</h2>
 <p><b>In general, your project does NOT need to be built with Clang or the same LLVM version used by ACAV.</b> ACAV can analyze code from projects compiled with:</p><ul>
 <li><b>GCC</b> (when the compilation database uses Clang-compatible flags)</li>
@@ -125,16 +125,16 @@ Compiler Compatibility</h2>
 </ul>
 <p><b>Note:</b> Most C projects and many C++ projects work well with ACAV under the general compatibility model above.</p>
 <hr  />
-<h1 class="doxsection"><a class="anchor" id="autotoc_md20"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md23"></a>
 Key Features</h1>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md21"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md24"></a>
 1. AST Visualization</h2>
 <ul>
 <li>Parse C, C++, and Objective-C source files and display their complete Abstract Syntax Tree</li>
 <li>Hierarchical tree view showing AST node structure</li>
 <li>Node details include: kind, type, name, and source location</li>
 </ul>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md22"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md25"></a>
 2. File Explorer View</h2>
 <ul>
 <li>Browse source files and included headers in a familiar tree-style panel</li>
@@ -142,14 +142,14 @@ Key Features</h1>
 <li>Single-click to view source code; double-click to also load AST</li>
 <li>Context-aware expand/collapse via right-click menu</li>
 </ul>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md23"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md26"></a>
 3. Bidirectional Navigation</h2>
 <ul>
 <li><b>AST to Code</b>: Click any AST node to highlight the corresponding source code</li>
 <li><b>Code to AST</b>: Click in the source editor to jump to the most specific AST node at that location</li>
 <li><b>Navigation History</b>: Use Back/Forward buttons (or Ctrl+[ / Ctrl+]) to navigate through your exploration history</li>
 </ul>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md24"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md27"></a>
 4. Declaration Context Panel</h2>
 <ul>
 <li>View the enclosing declaration hierarchy for any selected AST node</li>
@@ -158,7 +158,7 @@ Key Features</h1>
 <li>Selected node is highlighted within the hierarchy</li>
 <li>Automatically updates when AST selection changes</li>
 </ul>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md25"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md28"></a>
 5. Source Code Search</h2>
 <ul>
 <li>Source editor includes lightweight C/C++ syntax highlighting (keywords, comments, strings/chars, function-like identifiers)</li>
@@ -166,7 +166,7 @@ Key Features</h1>
 <li>Navigate through search results with Prev/Next buttons</li>
 <li>Live highlighting of all matches</li>
 </ul>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md26"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md29"></a>
 6. AST Node Search</h2>
 <ul>
 <li>Search AST nodes by any property (kind, name, type, etc.)</li>
@@ -178,38 +178,38 @@ Key Features</h1>
 <li>Session query history with completer suggestions</li>
 <li>Optional "Project" filter to restrict results to project files (excluding system headers)</li>
 </ul>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md27"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md30"></a>
 7. Region Selection in Source Code</h2>
 <ul>
 <li>Drag to select a code range in the source editor</li>
 <li>Focus the AST view on the selected region for easier inspection</li>
 </ul>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md28"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md31"></a>
 8. Export Functionality</h2>
 <ul>
 <li>Export AST subtrees to JSON format</li>
 <li>Useful for further analysis or integration with other tools</li>
 </ul>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md29"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md32"></a>
 9. File Path Display</h2>
 <ul>
 <li>Source Code and AST panels display the current file path in their title bars</li>
 <li>Format: <span class="tt">[project] relative/path</span> for project files, <span class="tt">[external] /absolute/path</span> for external headers</li>
 <li>Long paths are elided in the middle with full path available in tooltip</li>
 </ul>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md30"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md33"></a>
 10. Log Window</h2>
 <ul>
 <li>View runtime messages and background task status</li>
 <li>Helpful for troubleshooting and performance monitoring</li>
 </ul>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md31"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md34"></a>
 11. C++20 Modules Support (Conditional)</h2>
 <ul>
 <li>Supports projects using C++20 named modules when the compiler versions match</li>
 <li>Resolves module paths correctly under compatible toolchains</li>
 </ul>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md32"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md35"></a>
 12. AST Compilation Warning and Cache Recovery</h2>
 <ul>
 <li>Shows an inline warning banner when compilation errors occurred and AST data may be incomplete</li>
@@ -217,9 +217,9 @@ Key Features</h1>
 <li>Non-cache errors still report normally without silent retries</li>
 </ul>
 <hr  />
-<h1 class="doxsection"><a class="anchor" id="autotoc_md34"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md37"></a>
 Getting Started</h1>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md35"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md38"></a>
 Opening a Project</h2>
 <p><b>Method 1: Command Line</b> </p><div class="fragment"><div class="line">acav -c /path/to/compile_commands.json</div>
 </div><!-- fragment --><p><b>Method 2: From GUI</b></p><ol type="1">
@@ -227,7 +227,7 @@ Opening a Project</h2>
 <li>Go to <b>File → Open Compilation Database</b> (Ctrl+O)</li>
 <li>Select your <span class="tt">compile_commands.json</span> file</li>
 </ol>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md36"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md39"></a>
 Understanding Compilation Databases</h2>
 <p>ACAV requires a <b>compilation database</b> (JSON Compilation Database format) that describes how each source file in your project is compiled. This file contains:</p><ul>
 <li>Source file paths</li>
@@ -243,10 +243,10 @@ Understanding Compilation Databases</h2>
 </ul>
 <p>The file is typically named <span class="tt">compile_commands.json</span>, but ACAV accepts any valid JSON compilation database file.</p>
 <hr  />
-<h1 class="doxsection"><a class="anchor" id="autotoc_md38"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md41"></a>
 Command-Line Tools</h1>
 <p>ACAV ships three command-line executables. Most users interact primarily with the <span class="tt">acav</span> GUI, which invokes the helper tools internally. The helper tools can also be run directly for scripting, debugging, or preprocessing workflows.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md39"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md42"></a>
 <span class="tt">acav</span></h2>
 <p>Launches the Qt-based GUI for interactive AST exploration.</p>
 <table class="markdownTable">
@@ -267,7 +267,7 @@ Command-Line Tools</h1>
 <div class="fragment"><div class="line">acav -c /path/to/compile_commands.json</div>
 </div><!-- fragment --><div class="fragment"><div class="line">acav --config /path/to/acav.ini</div>
 </div><!-- fragment --><div class="fragment"><div class="line">acav -c /path/to/compile_commands.json -p /path/to/project</div>
-</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md40"></a>
+</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md43"></a>
 <span class="tt">query-dependencies</span></h2>
 <p>Scans one or more translation units from a compilation database and writes a JSON file describing header dependencies and related diagnostics.</p>
 <table class="markdownTable">
@@ -291,7 +291,7 @@ Command-Line Tools</h1>
 <div class="line">  --output dependencies.json \</div>
 <div class="line">  --source src/main.cpp \</div>
 <div class="line">  --source src/lib.cpp</div>
-</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md41"></a>
+</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md44"></a>
 <span class="tt">make-ast</span></h2>
 <p>Builds and serializes a Clang AST for one source file using the matching compilation database entry.</p>
 <table class="markdownTable">
@@ -311,7 +311,7 @@ Command-Line Tools</h1>
 <div class="line">  --compilation-database compile_commands.json \</div>
 <div class="line">  --source /path/to/source.cpp \</div>
 <div class="line">  --output cache/source.ast</div>
-</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md42"></a>
+</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md45"></a>
 How the Tools Fit Together</h2>
 <p>In a typical workflow:</p>
 <ol type="1">
@@ -320,9 +320,9 @@ How the Tools Fit Together</h2>
 <li><span class="tt">acav</span> lets you inspect the project interactively, or invokes these helper programs automatically in the background.</li>
 </ol>
 <hr  />
-<h1 class="doxsection"><a class="anchor" id="autotoc_md44"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md47"></a>
 Using the GUI</h1>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md45"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md48"></a>
 Main Window Layout</h2>
 <p>The ACAV window is divided into four main panels, with an optional log window:</p>
 <div class="fragment"><div class="line">┌────────────────────────────────────────────────────────────────────┐</div>
@@ -338,7 +338,7 @@ Main Window Layout</h2>
 </div><!-- fragment --><p><b>Left Panel</b>: File Explorer view of source files and included headers <b>Center-Left Panel</b>: Source code editor with syntax highlighting <b>Center-Right Panel</b>: Hierarchical AST tree structure for the selected file <b>Right Panel</b>: Declaration context hierarchy for the selected AST node <b>Bottom Panel</b>: Log window showing background tasks and runtime messages (optional)</p>
 <p><img src="docs/manual/images/main-window.png" alt="The ACAV main window with a sample project loaded, showing the five dock panels." class="inline"/></p>
 <p><em>Screenshot: The ACAV main window with a sample project loaded, showing the five dock panels.</em></p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md46"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md49"></a>
 Basic Workflow</h2>
 <ol type="1">
 <li><b>Select a Source File</b><ul>
@@ -369,7 +369,7 @@ Basic Workflow</h2>
 </ol>
 <p><img src="docs/manual/images/source-ast-link.png" alt="Bidirectional navigation between the source code and AST panels, with the selected source range linked to the matching AST node and declaration context." class="inline"/></p>
 <p><em>Screenshot: Bidirectional navigation between the source code and AST panels: selecting source highlights the matching AST node and updates the declaration context display.</em></p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md47"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md50"></a>
 File Explorer Interactions</h2>
 <p>The File Explorer uses a <b>two-action model</b> to separate browsing from AST generation:</p>
 <table class="markdownTable">
@@ -392,14 +392,14 @@ File Explorer Interactions</h2>
 <li>Single-click <span class="tt">main.cpp</span> → Source code switches back, AST still shows utils.hpp (cached)</li>
 <li>Double-click <span class="tt">main.cpp</span> → AST reloads from cache (fast)</li>
 </ol>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md48"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md51"></a>
 Selecting a Code Region</h2>
 <ol type="1">
 <li>Drag to select a region in the source editor</li>
 <li>The AST view focuses on nodes that overlap the selection</li>
 <li>Use this to narrow down large files and inspect specific sections</li>
 </ol>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md49"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md52"></a>
 Searching Source Code</h2>
 <ol type="1">
 <li>Use the search box above the source editor</li>
@@ -408,7 +408,7 @@ Searching Source Code</h2>
 <li>Use <b>Prev/Next</b> buttons to navigate results</li>
 <li>All matches are highlighted in yellow</li>
 </ol>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md50"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md53"></a>
 Searching the AST</h2>
 <p>The AST panel includes a quick search field and a floating popup for finding nodes by their properties.</p>
 <ol type="1">
@@ -447,7 +447,7 @@ Searching the AST</h2>
 </table>
 <p><img src="docs/manual/images/ast-search.png" alt="The AST search dialog showing a qualified query, filtering to project files only, and highlighting the matching FunctionDecl in the tree." class="inline"/></p>
 <p><em>Screenshot: The AST search dialog, showing a qualified query, filtering to project files only, and the matching <span class="tt">FunctionDecl</span> highlighted in the tree.</em></p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md51"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md54"></a>
 Viewing Node Details</h2>
 <p>To inspect detailed properties of an AST node:</p>
 <ol type="1">
@@ -458,7 +458,7 @@ Viewing Node Details</h2>
 </ol>
 <p><img src="docs/manual/images/node-details.png" alt="The Node Details dialog for a FunctionDecl node, showing extracted properties such as return type, linkage, and boolean attributes." class="inline"/></p>
 <p><em>Screenshot: The Node Details dialog for a <span class="tt">FunctionDecl</span> node, showing properties such as return type, linkage, and boolean attributes.</em></p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md52"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md55"></a>
 Exporting AST Data</h2>
 <p>To export an AST subtree:</p>
 <ol type="1">
@@ -472,7 +472,7 @@ Exporting AST Data</h2>
 <li>Comparing AST structures</li>
 <li>Documentation and debugging</li>
 </ul>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md53"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md56"></a>
 Log Window</h2>
 <p>The log window shows runtime messages and background task status. It is useful for:</p><ul>
 <li>Diagnosing configuration or parsing errors</li>
@@ -480,12 +480,12 @@ Log Window</h2>
 <li>Capturing timing or debug messages (if enabled)</li>
 </ul>
 <hr  />
-<h1 class="doxsection"><a class="anchor" id="autotoc_md55"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md58"></a>
 Keyboard Shortcuts</h1>
 <ul>
 <li>For the full list, see <b>Help &gt; Keyboard Shortcuts</b> in the application.</li>
 </ul>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md56"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md59"></a>
 Focus Switching</h2>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -505,7 +505,7 @@ Focus Switching</h2>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone"><span class="tt">Ctrl+6</span>  </td><td class="markdownTableBodyNone">Logs  </td></tr>
 </table>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md57"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md60"></a>
 Source Code / AST View</h2>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -521,7 +521,7 @@ Source Code / AST View</h2>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone"><span class="tt">Esc</span>  </td><td class="markdownTableBodyNone">Close AST search popup  </td></tr>
 </table>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md58"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md61"></a>
 View</h2>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -534,7 +534,7 @@ View</h2>
 <td class="markdownTableBodyNone"><span class="tt">Ctrl+0</span>  </td><td class="markdownTableBodyNone">Reset zoom (focused panel only)  </td></tr>
 </table>
 <p><b>Per-Panel Font Size:</b> Each panel (File Explorer, Source Code, AST, Declaration Context, Logs) maintains its own font size. Use <span class="tt">Ctrl++</span>/<span class="tt">Ctrl+-</span> to adjust only the currently focused panel.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md59"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md62"></a>
 Tree Views (AST / File Explorer)</h2>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -548,7 +548,7 @@ Tree Views (AST / File Explorer)</h2>
 </table>
 <p><b>File Explorer Expand/Collapse:</b></p>
 <p>Right-click on a node in the File Explorer to access "Expand All" / "Collapse All" context menu options. At the directory level, expand/collapse operates on directories only (down to source files) to avoid accidentally loading massive header trees.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md60"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md63"></a>
 Navigation History</h2>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -558,7 +558,7 @@ Navigation History</h2>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone"><span class="tt">Ctrl+]</span>  </td><td class="markdownTableBodyNone">Navigate forward  </td></tr>
 </table>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md61"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md64"></a>
 AST</h2>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -568,7 +568,7 @@ AST</h2>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone"><span class="tt">Ctrl+I</span>  </td><td class="markdownTableBodyNone">Inspect node details  </td></tr>
 </table>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md62"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md65"></a>
 File</h2>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -581,10 +581,10 @@ File</h2>
 <td class="markdownTableBodyNone"><span class="tt">Ctrl+Shift+R</span>  </td><td class="markdownTableBodyNone">Reload configuration  </td></tr>
 </table>
 <hr  />
-<h1 class="doxsection"><a class="anchor" id="autotoc_md64"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md67"></a>
 Settings</h1>
 <p>Access settings via <b>File → Open Config File...</b> (Ctrl+, or Cmd+, on macOS). Use <b>File → Reload Configuration</b> to apply changes without restarting.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md65"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md68"></a>
 Available Options</h2>
 <p><b>Font Size</b> (<span class="tt">ui/fontSize</span>) Adjust font size for tree views and source code editor (8-32 pt). Default: 11.</p>
 <p><b>Font Family</b> (<span class="tt">ui/fontFamily</span>) Optional UI font family. Leave empty to use the system default. Example: <span class="tt">fontFamily=JetBrains Mono</span></p>
@@ -593,7 +593,7 @@ Available Options</h2>
 <p><b>Memory Profiling</b> (<span class="tt">debug/enableMemoryProfiling</span>) Show peak memory usage at key processing points. Useful for debugging. Default: false.</p>
 <p><b>Parallel Processing</b> (<span class="tt">performance/parallelProcessorCount</span>) Number of CPU cores to use for dependency analysis. 0 = auto-detect (use all available cores). Default: 0.</p>
 <hr  />
-<h1 class="doxsection"><a class="anchor" id="autotoc_md67"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md70"></a>
 Support</h1>
 <p>For issues, questions, or feedback, please use the repository issue tracker or contact the repository maintainers. </p>
 </div></div><!-- contents -->

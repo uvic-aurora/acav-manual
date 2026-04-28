@@ -1,16 +1,6 @@
 var searchData=
 [
-  ['0_202025_2012_2017_0',['[v0.1.0] - 2025-12-17',['../changelog.html#autotoc_md97',1,'']]],
-  ['0_202026_2001_2006_1',['[v0.2.0] - 2026-01-06',['../changelog.html#autotoc_md92',1,'']]],
-  ['0_202026_2001_2012_2',['[v0.3.0] - 2026-01-12',['../changelog.html#autotoc_md87',1,'']]],
-  ['0_202026_2001_2016_3',['[v0.4.0] - 2026-01-16',['../changelog.html#autotoc_md79',1,'']]],
-  ['0_202026_2001_2026_4',['[v0.5.0] - 2026-01-26',['../changelog.html#autotoc_md75',1,'']]],
-  ['01_2006_5',['[v0.2.0] - 2026-01-06',['../changelog.html#autotoc_md92',1,'']]],
-  ['01_2012_6',['[v0.3.0] - 2026-01-12',['../changelog.html#autotoc_md87',1,'']]],
-  ['01_2013_7',['[v0.3.1] - 2026-01-13',['../changelog.html#autotoc_md84',1,'']]],
-  ['01_2016_8',['[v0.4.0] - 2026-01-16',['../changelog.html#autotoc_md79',1,'']]],
-  ['01_2026_9',['[v0.5.0] - 2026-01-26',['../changelog.html#autotoc_md75',1,'']]],
-  ['01_2031_10',['[v0.5.1] - 2026-01-31',['../changelog.html#autotoc_md72',1,'']]],
-  ['02_2010_11',['[v0.5.2] - 2026-02-10',['../changelog.html#autotoc_md68',1,'']]],
-  ['06_12',['[v0.2.0] - 2026-01-06',['../changelog.html#autotoc_md92',1,'']]]
+  ['0_200_20unreleased_0',['[v1.0.0] - Unreleased',['../changelog.html#autotoc_md101',1,'']]],
+  ['0_20unreleased_1',['[v1.0.0] - Unreleased',['../changelog.html#autotoc_md101',1,'']]],
+  ['0_3a_20set_20the_20variables_2',['Step 0: Set the Variables',['../md_DOCKER__IMAGE__README.html#autotoc_md78',1,'']]]
 ];

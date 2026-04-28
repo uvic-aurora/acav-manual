@@ -27,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ACAV<span id="projectnumber">&#160;453686febeca</span>
+   <div id="projectname">ACAV<span id="projectnumber">&#160;68228013681d</span>
    </div>
    <div id="projectbrief">Abstract Syntax Tree (AST) visualization tool for C, C++, and Objective-C</div>
   </td>
@@ -93,8 +93,8 @@ $(function(){initNavTree('installation.html','',''); });
   <div class="headertitle"><div class="title">Installation </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="md_docs_2manual_2installation"></a></p>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md7"></a>
+<div class="textblock"><p><a class="anchor" id="md_INSTALL"></a></p>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md10"></a>
 Prerequisites</h1>
 <p>Before building ACAV, make sure the host system provides:</p>
 <ul>
@@ -110,32 +110,24 @@ Prerequisites</h1>
 <li>running <span class="tt">bear -- make</span>, or</li>
 <li>using another tool that records compile commands for the build system in use.</li>
 </ul>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md8"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md11"></a>
 Native Build</h1>
 <p>ACAV ships CMake presets for common development environments.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md9"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md12"></a>
 Linux</h2>
 <div class="fragment"><div class="line">cmake --preset=linux-debug</div>
 <div class="line">cmake --build out/linux-debug -j$(nproc)</div>
-</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md10"></a>
+</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md13"></a>
 macOS</h2>
 <div class="fragment"><div class="line">cmake --preset=macos-debug</div>
 <div class="line">cmake --build out/macos-debug</div>
 </div><!-- fragment --><p>These builds produce the <span class="tt">acav</span>, <span class="tt">make-ast</span>, and <span class="tt">query-dependencies</span> executables in the corresponding <span class="tt">out/.../bin</span> directory.</p>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md11"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md14"></a>
 Containerized Build and Runtime</h1>
-<p>For a reproducible environment, ACAV can also be built and run from a container image. The repository provides both a containerized development workflow and a release image workflow.</p>
-<p>To build the release image:</p>
-<div class="fragment"><div class="line">docker build -f Dockerfile.release -t acav:latest .</div>
-</div><!-- fragment --><p>To launch the GUI from that image on an X11-based desktop:</p>
-<div class="fragment"><div class="line">docker run --rm -it \</div>
-<div class="line">  -v /tmp/.X11-unix:/tmp/.X11-unix \</div>
-<div class="line">  -e DISPLAY=$DISPLAY \</div>
-<div class="line">  -e HOME=$HOME \</div>
-<div class="line">  -v $XAUTHORITY:$HOME/.Xauthority \</div>
-<div class="line">  acav:latest acav -c /opt/acav/examples/compile_commands.json</div>
-</div><!-- fragment --><p>The helper scripts <span class="tt">scripts/build.sh</span> and <span class="tt">scripts/run_acav_container.sh</span> provide a more convenient wrapper around these workflows when building or running ACAV from the repository.</p>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md12"></a>
+<p>For a reproducible development environment, ACAV can be built in a container with the repository helper script:</p>
+<div class="fragment"><div class="line">./scripts/build.sh build</div>
+</div><!-- fragment --><p>For the prebuilt OCI demo image, Docker/Podman launch helpers, desktop-display setup, and image verification steps, see the <a class="el" href="md_DOCKER__IMAGE__README.html" title="ACAV Docker/Podman Demo Image - User Guide">Docker/Podman demo image guide</a>.</p>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md15"></a>
 Launching ACAV</h1>
 <p>Once ACAV is installed, start the GUI by supplying a compilation database:</p>
 <div class="fragment"><div class="line">acav -c /path/to/compile_commands.json</div>
