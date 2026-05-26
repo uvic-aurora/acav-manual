@@ -1,11 +1,13 @@
 <map id="app/include/core/SourceLocationIndex.h" name="app/include/core/SourceLocationIndex.h">
-<area shape="rect" id="Node000001" title="Source&#45;to&#45;AST node lookup index." alt="" coords="447,5,671,54"/>
+<area shape="rect" id="Node000001" title="Source&#45;to&#45;AST node lookup index." alt="" coords="478,5,702,54"/>
 <area shape="rect" id="Node000002" href="$FileManager_8h.html" title="Centralized file registry with path&#45;to&#45;FileID mapping." alt="" coords="269,102,436,132"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="504,54,402,98,400,93,499,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="526,54,407,99,405,94,521,55"/>
 <area shape="rect" id="Node000009" title=" " alt="" coords="615,180,676,209"/>
-<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="563,52,571,91,587,130,601,150,618,170,613,168,597,153,582,133,566,93,560,56"/>
+<area shape="poly" id="edge11_Node000001_Node000009" title=" " alt="" coords="585,52,581,92,582,112,587,131,599,151,616,170,611,169,595,154,582,133,576,112,575,91,581,56"/>
 <area shape="rect" id="Node000010" title=" " alt="" coords="596,102,644,132"/>
-<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="577,52,604,90,599,88,575,57"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="600,52,612,88,608,86,597,57"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="668,102,743,132"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="623,52,677,93,671,92,621,57"/>
 <area shape="rect" id="Node000003" title=" " alt="" coords="5,180,73,209"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="286,135,88,182,87,176,285,130"/>
 <area shape="rect" id="Node000004" title=" " alt="" coords="97,180,157,209"/>

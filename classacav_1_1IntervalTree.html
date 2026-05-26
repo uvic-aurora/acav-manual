@@ -27,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ACAV<span id="projectnumber">&#160;f0ba4b7c9529</span>
+   <div id="projectname">ACAV<span id="projectnumber">&#160;69797fb42a2b</span>
    </div>
    <div id="projectbrief">Abstract Syntax Tree (AST) visualization tool for C, C++, and Objective-C</div>
   </td>
@@ -94,7 +94,7 @@ $(function(){initNavTree('classacav_1_1IntervalTree.html','','classacav_1_1Inter
 </div><!--header-->
 <div class="contents">
 
-<p>Sorted array for interval queries.  
+<p>Static interval index for source-location queries.  
  <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="SourceLocationIndex_8h_source.html">SourceLocationIndex.h</a>&gt;</code></p>
@@ -117,15 +117,15 @@ IntervalTree &amp;&#160;</td><td class="memItemRight"><b>operator=</b> (const In
 <tr class="memdesc:a76218488abc4818c7eed958d3f1b1fb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get total number of intervals.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Sorted array for interval queries. </p>
-<p>Stores source ranges in a sorted vector for efficient point queries. Uses binary search for lookup.</p>
+<div class="textblock"><p>Static interval index for source-location queries. </p>
+<p>Stores source ranges in a sorted vector for range-selection queries and builds a centered interval tree for point queries.</p>
 <p>Complexity:</p><ul>
 <li>Insert: O(1) amortized (vector push_back)</li>
-<li>Finalize: O(n log n) (one-time sort)</li>
-<li>Query: O(log n + k) where k = number of matches </li>
+<li>Finalize: O(n log n) (one-time sort and interval-tree build)</li>
+<li>Point query: O(log n + k) before result-depth ordering, where k is the number of matches </li>
 </ul>
 
-<p class="definition">Definition at line <a class="el" href="SourceLocationIndex_8h_source.html#l00063">63</a> of file <a class="el" href="SourceLocationIndex_8h_source.html">SourceLocationIndex.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SourceLocationIndex_8h_source.html#l00065">65</a> of file <a class="el" href="SourceLocationIndex_8h_source.html">SourceLocationIndex.h</a>.</p>
 </div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="a39381d447047e176b6294ba14d908cdd" name="a39381d447047e176b6294ba14d908cdd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a39381d447047e176b6294ba14d908cdd">&#9670;&#160;</a></span>finalize()</h2>
@@ -144,7 +144,7 @@ IntervalTree &amp;&#160;</td><td class="memItemRight"><b>operator=</b> (const In
 
 <p>Sort intervals by start position (call once after all inserts). </p>
 
-<p class="definition">Definition at line <a class="el" href="SourceLocationIndex_8cpp_source.html#l00059">59</a> of file <a class="el" href="SourceLocationIndex_8cpp_source.html">SourceLocationIndex.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SourceLocationIndex_8cpp_source.html#l00096">96</a> of file <a class="el" href="SourceLocationIndex_8cpp_source.html">SourceLocationIndex.cpp</a>.</p>
 
 </div>
 </div>
@@ -171,7 +171,7 @@ IntervalTree &amp;&#160;</td><td class="memItemRight"><b>operator=</b> (const In
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="SourceLocationIndex_8cpp_source.html#l00055">55</a> of file <a class="el" href="SourceLocationIndex_8cpp_source.html">SourceLocationIndex.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SourceLocationIndex_8cpp_source.html#l00092">92</a> of file <a class="el" href="SourceLocationIndex_8cpp_source.html">SourceLocationIndex.cpp</a>.</p>
 
 </div>
 </div>
@@ -204,7 +204,7 @@ IntervalTree &amp;&#160;</td><td class="memItemRight"><b>operator=</b> (const In
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Vector of nodes sorted by depth (deepest first) </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="SourceLocationIndex_8cpp_source.html#l00069">69</a> of file <a class="el" href="SourceLocationIndex_8cpp_source.html">SourceLocationIndex.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SourceLocationIndex_8cpp_source.html#l00107">107</a> of file <a class="el" href="SourceLocationIndex_8cpp_source.html">SourceLocationIndex.cpp</a>.</p>
 
 </div>
 </div>
@@ -249,7 +249,7 @@ IntervalTree &amp;&#160;</td><td class="memItemRight"><b>operator=</b> (const In
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>First node whose interval is inside the range, or nullptr </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="SourceLocationIndex_8cpp_source.html#l00098">98</a> of file <a class="el" href="SourceLocationIndex_8cpp_source.html">SourceLocationIndex.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SourceLocationIndex_8cpp_source.html#l00190">190</a> of file <a class="el" href="SourceLocationIndex_8cpp_source.html">SourceLocationIndex.cpp</a>.</p>
 
 </div>
 </div>
@@ -278,7 +278,7 @@ IntervalTree &amp;&#160;</td><td class="memItemRight"><b>operator=</b> (const In
 
 <p>Get total number of intervals. </p>
 
-<p class="definition">Definition at line <a class="el" href="SourceLocationIndex_8h_source.html#l00095">95</a> of file <a class="el" href="SourceLocationIndex_8h_source.html">SourceLocationIndex.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SourceLocationIndex_8h_source.html#l00097">97</a> of file <a class="el" href="SourceLocationIndex_8h_source.html">SourceLocationIndex.h</a>.</p>
 
 </div>
 </div>

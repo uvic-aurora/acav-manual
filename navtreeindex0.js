@@ -200,7 +200,8 @@ var NAVTREEINDEX0 =
 "classacav_1_1LineNumberArea.html#a24ba857a75dd346f7a1fabcfd47ba18f":[4,0,0,30,0],
 "classacav_1_1LineNumberArea.html#a2efa6fb66121a72b3e2b1fe1d0fe5e87":[4,0,0,30,2],
 "classacav_1_1LogDock.html":[4,0,0,31],
-"classacav_1_1LogDock.html#a1769c95b8975367e719b921684f6d505":[4,0,0,31,0],
+"classacav_1_1LogDock.html#a1769c95b8975367e719b921684f6d505":[4,0,0,31,1],
+"classacav_1_1LogDock.html#a65d3044ec46991993d5f82efae074663":[4,0,0,31,0],
 "classacav_1_1MainWindow.html":[4,0,0,32],
 "classacav_1_1MainWindow.html#a6b859737bc89ab168a9ffcd4a0551ae7":[4,0,0,32,0],
 "classacav_1_1MakeAstRunner.html":[4,0,0,15],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "classacav_1_1ParallelProcessRunner.html#ae179f9947bbab54b29e2f2254dcccfe7":[4,0,0,17,13],
 "classacav_1_1ParallelProcessRunner.html#afe49e667cf013958b38f396d3a98b556":[4,0,0,17,17],
 "classacav_1_1QueryDependenciesParallelRunner.html":[4,0,0,19],
-"classacav_1_1QueryDependenciesParallelRunner.html#a1d455cfbe600326adf79ca48643bb418":[4,0,0,19,2],
-"classacav_1_1QueryDependenciesParallelRunner.html#a423195a1cc7229f47d510fbdc2a1aa02":[4,0,0,19,1]
+"classacav_1_1QueryDependenciesParallelRunner.html#a1d455cfbe600326adf79ca48643bb418":[4,0,0,19,2]
 };

@@ -19,7 +19,7 @@ var searchData=
   ['appconfig_16',['AppConfig',['../classacav_1_1AppConfig.html',1,'acav']]],
   ['appconfig_2eh_17',['AppConfig.h',['../AppConfig_8h.html',1,'']]],
   ['application_18',['Running the GUI Application',['../demo_image.html#demo_image_running_gui',1,'']]],
-  ['applyfont_19',['applyFont',['../classacav_1_1DeclContextView.html#a58a6c1db0582e68553773fd8c4f8cf10',1,'acav::DeclContextView']]],
+  ['applyfont_19',['applyFont',['../classacav_1_1DeclContextView.html#a58a6c1db0582e68553773fd8c4f8cf10',1,'acav::DeclContextView::applyFont()'],['../classacav_1_1LogDock.html#a65d3044ec46991993d5f82efae074663',1,'acav::LogDock::applyFont()']]],
   ['applyfontsize_20',['applyFontSize',['../classacav_1_1SourceCodeView.html#addde5c27aba450e8a900c78be3d96b1d',1,'acav::SourceCodeView']]],
   ['assets_21',['GitHub Release Assets',['../demo_image.html#autotoc_md78',1,'']]],
   ['ast_22',['AST',['../user_manual.html#autotoc_md64',1,'AST'],['../user_manual.html#autotoc_md53',1,'Searching the AST']]],

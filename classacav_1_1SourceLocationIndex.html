@@ -27,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ACAV<span id="projectnumber">&#160;f0ba4b7c9529</span>
+   <div id="projectname">ACAV<span id="projectnumber">&#160;69797fb42a2b</span>
    </div>
    <div id="projectbrief">Abstract Syntax Tree (AST) visualization tool for C, C++, and Objective-C</div>
   </td>
@@ -122,9 +122,9 @@ SourceLocationIndex &amp;&#160;</td><td class="memItemRight"><b>operator=</b> (c
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Index for source-to-AST node lookup. </p>
-<p>Maintains one <a class="el" href="classacav_1_1IntervalTree.html" title="Sorted array for interval queries.">IntervalTree</a> per <a class="el" href="FileManager_8h.html#acefde3e3225817b99dac65fc770615b2" title="Type-safe identifier for registered files. 0 is reserved for invalid.">FileID</a>. Built during AST extraction. Owned by <a class="el" href="classacav_1_1AstContext.html" title="Memory manager for AST nodes in a translation unit.">AstContext</a>, destroyed when TU is closed. </p>
+<p>Maintains one <a class="el" href="classacav_1_1IntervalTree.html" title="Static interval index for source-location queries.">IntervalTree</a> per <a class="el" href="FileManager_8h.html#acefde3e3225817b99dac65fc770615b2" title="Type-safe identifier for registered files. 0 is reserved for invalid.">FileID</a>. Built during AST extraction. Owned by <a class="el" href="classacav_1_1AstContext.html" title="Memory manager for AST nodes in a translation unit.">AstContext</a>, destroyed when TU is closed. </p>
 
-<p class="definition">Definition at line <a class="el" href="SourceLocationIndex_8h_source.html#l00108">108</a> of file <a class="el" href="SourceLocationIndex_8h_source.html">SourceLocationIndex.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SourceLocationIndex_8h_source.html#l00135">135</a> of file <a class="el" href="SourceLocationIndex_8h_source.html">SourceLocationIndex.h</a>.</p>
 </div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="a4fe1036b5fe10756df9b1b31b6ae8974" name="a4fe1036b5fe10756df9b1b31b6ae8974"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4fe1036b5fe10756df9b1b31b6ae8974">&#9670;&#160;</a></span>addNode()</h2>
@@ -150,7 +150,7 @@ SourceLocationIndex &amp;&#160;</td><td class="memItemRight"><b>operator=</b> (c
 </dl>
 <dl class="section pre"><dt>Precondition</dt><dd>node-&gt;getSourceRange().begin().fileID() != 0 (valid) </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="SourceLocationIndex_8cpp_source.html#l00145">145</a> of file <a class="el" href="SourceLocationIndex_8cpp_source.html">SourceLocationIndex.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SourceLocationIndex_8cpp_source.html#l00237">237</a> of file <a class="el" href="SourceLocationIndex_8cpp_source.html">SourceLocationIndex.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="AstNode_8h_source.html#l00219">acav::AstViewNode::getSourceRange()</a>, and <a class="el" href="FileManager_8h_source.html#l00047">acav::FileManager::InvalidFileID</a>.</p>
 
@@ -173,7 +173,7 @@ SourceLocationIndex &amp;&#160;</td><td class="memItemRight"><b>operator=</b> (c
 
 <p>Finalize all interval trees (call after all nodes added). </p>
 
-<p class="definition">Definition at line <a class="el" href="SourceLocationIndex_8cpp_source.html#l00166">166</a> of file <a class="el" href="SourceLocationIndex_8cpp_source.html">SourceLocationIndex.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SourceLocationIndex_8cpp_source.html#l00266">266</a> of file <a class="el" href="SourceLocationIndex_8cpp_source.html">SourceLocationIndex.cpp</a>.</p>
 
 </div>
 </div>
@@ -202,7 +202,7 @@ SourceLocationIndex &amp;&#160;</td><td class="memItemRight"><b>operator=</b> (c
 
 <p>Get number of files in index. </p>
 
-<p class="definition">Definition at line <a class="el" href="SourceLocationIndex_8h_source.html#l00146">146</a> of file <a class="el" href="SourceLocationIndex_8h_source.html">SourceLocationIndex.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SourceLocationIndex_8h_source.html#l00173">173</a> of file <a class="el" href="SourceLocationIndex_8h_source.html">SourceLocationIndex.h</a>.</p>
 
 </div>
 </div>
@@ -253,7 +253,7 @@ SourceLocationIndex &amp;&#160;</td><td class="memItemRight"><b>operator=</b> (c
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>First node contained in the range, or nullptr </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="SourceLocationIndex_8cpp_source.html#l00184">184</a> of file <a class="el" href="SourceLocationIndex_8cpp_source.html">SourceLocationIndex.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SourceLocationIndex_8cpp_source.html#l00284">284</a> of file <a class="el" href="SourceLocationIndex_8cpp_source.html">SourceLocationIndex.cpp</a>.</p>
 
 </div>
 </div>
@@ -292,7 +292,7 @@ SourceLocationIndex &amp;&#160;</td><td class="memItemRight"><b>operator=</b> (c
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Vector of matching nodes, sorted deepest-first </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="SourceLocationIndex_8cpp_source.html#l00173">173</a> of file <a class="el" href="SourceLocationIndex_8cpp_source.html">SourceLocationIndex.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SourceLocationIndex_8cpp_source.html#l00273">273</a> of file <a class="el" href="SourceLocationIndex_8cpp_source.html">SourceLocationIndex.cpp</a>.</p>
 
 </div>
 </div>
@@ -313,7 +313,7 @@ SourceLocationIndex &amp;&#160;</td><td class="memItemRight"><b>operator=</b> (c
 
 <p>Get total number of intervals across all files. </p>
 
-<p class="definition">Definition at line <a class="el" href="SourceLocationIndex_8cpp_source.html#l00196">196</a> of file <a class="el" href="SourceLocationIndex_8cpp_source.html">SourceLocationIndex.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SourceLocationIndex_8cpp_source.html#l00296">296</a> of file <a class="el" href="SourceLocationIndex_8cpp_source.html">SourceLocationIndex.cpp</a>.</p>
 
 </div>
 </div>
@@ -334,7 +334,7 @@ SourceLocationIndex &amp;&#160;</td><td class="memItemRight"><b>operator=</b> (c
 
 <p>Check whether the current TU AST contains any indexed nodes for a file. </p>
 
-<p class="definition">Definition at line <a class="el" href="SourceLocationIndex_8cpp_source.html#l00204">204</a> of file <a class="el" href="SourceLocationIndex_8cpp_source.html">SourceLocationIndex.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SourceLocationIndex_8cpp_source.html#l00304">304</a> of file <a class="el" href="SourceLocationIndex_8cpp_source.html">SourceLocationIndex.cpp</a>.</p>
 
 </div>
 </div>
